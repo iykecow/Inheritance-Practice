@@ -15,9 +15,11 @@ public class Main
     4.0, 1, "English");
     System.out.println(ima);
 
-    Parent lena = new Parent("Lena Brooke", 27, "F", "Principal", 2);
+    Parent lena = new Parent("Lena Brooke", 41, "F", "Principal", 2);
     System.out.println(lena);
 
-    
+    Bus_Driver tim = new Bus_Driver("Timmothy Baker", 56, "M", "School Bus", "West Park");
+    System.out.println(tim);
+
   }
 }
